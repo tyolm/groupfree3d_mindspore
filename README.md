@@ -30,7 +30,7 @@ For ScanNet, follow the [README](./scannet/README.md) under the `scannet` folder
 |[MLCVNet](https://arxiv.org/abs/2004.05679) | PointNet++ | 64.5 | 41.4 | [official repo](https://github.com/NUAAXQ/MLCVNet) |
 |[H3DNet](https://arxiv.org/abs/2006.05682) | PointNet++ | 64.4 | 43.4 | [official repo](https://github.com/zaiweizhang/H3DNet) |
 |[H3DNet](https://arxiv.org/abs/2006.05682) | 4xPointNet++ | 67.2| 48.1 | [official repo](https://github.com/zaiweizhang/H3DNet) |
-| Ours(L6, O256) | PointNet++ |  |  |  |
+| Ours | PointNet++ |  |  |  |
 
 ### SUN RGB-D
 
@@ -41,7 +41,7 @@ For ScanNet, follow the [README](./scannet/README.md) under the `scannet` folder
 |[HGNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_A_Hierarchical_Graph_Network_for_3D_Object_Detection_on_Point_CVPR_2020_paper.pdf)| GU-net |point | 61.6 |-|-|
 |[H3DNet](https://arxiv.org/abs/2006.05682) | 4xPointNet++ |point | 60.1 | 39.0 | [official repo](https://github.com/zaiweizhang/H3DNet) |
 |[imVoteNet](https://arxiv.org/abs/2001.10692)|PointNet++|point+RGB| 63.4 | - |  [official repo](https://github.com/facebookresearch/imvotenet)|
-| Ours(L6, O256)| PointNet++ | point |  |  | |
+| Ours| PointNet++ | point |  |  | |
 
 ## Usage
 
