@@ -26,21 +26,21 @@ For ScanNet, follow the [README](./scannet/README.md) under the `scannet` folder
 |[HGNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_A_Hierarchical_Graph_Network_for_3D_Object_Detection_on_Point_CVPR_2020_paper.pdf)| GU-net| 61.3 | 34.4 | - |
 |[GSDN](https://arxiv.org/pdf/2006.12356.pdf)| MinkNet | 62.8 | 34.8 | [waiting for release](https://github.com/jgwak/GSDN) |
 |[3D-MPA](https://arxiv.org/abs/2003.13867)| MinkNet | 64.2 | 49.2 |  [waiting for release](https://github.com/francisengelmann/3D-MPA) |
-|[VoteNet](https://arxiv.org/abs/1904.09664) | PointNet++ | 62.9 | 39.9 | [official repo](https://github.com/facebookresearch/votenet) |
-|[MLCVNet](https://arxiv.org/abs/2004.05679) | PointNet++ | 64.5 | 41.4 | [official repo](https://github.com/NUAAXQ/MLCVNet) |
-|[H3DNet](https://arxiv.org/abs/2006.05682) | PointNet++ | 64.4 | 43.4 | [official repo](https://github.com/zaiweizhang/H3DNet) |
-|[H3DNet](https://arxiv.org/abs/2006.05682) | 4xPointNet++ | 67.2| 48.1 | [official repo](https://github.com/zaiweizhang/H3DNet) |
+|[VoteNet](https://arxiv.org/abs/1904.09664) | PointNet++ | 62.9 | 39.9 | - |
+|[MLCVNet](https://arxiv.org/abs/2004.05679) | PointNet++ | 64.5 | 41.4 | - |
+|[H3DNet](https://arxiv.org/abs/2006.05682) | PointNet++ | 64.4 | 43.4 | - |
+|[H3DNet](https://arxiv.org/abs/2006.05682) | 4xPointNet++ | 67.2| 48.1 | - |
 | Ours | PointNet++ |  |  |  |
 
 ### SUN RGB-D
 
 |Method | backbone | inputs | mAP@0.25 | mAP@0.5 | Model |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|[VoteNet](https://arxiv.org/abs/1904.09664)| PointNet++ |point | 59.1 | 35.8 |[official repo](https://github.com/facebookresearch/votenet)|
-|[MLCVNet](https://arxiv.org/abs/2004.05679)|PointNet++ | point | 59.8 | - | [official repo](https://github.com/NUAAXQ/MLCVNet) |
-|[HGNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_A_Hierarchical_Graph_Network_for_3D_Object_Detection_on_Point_CVPR_2020_paper.pdf)| GU-net |point | 61.6 |-|-|
-|[H3DNet](https://arxiv.org/abs/2006.05682) | 4xPointNet++ |point | 60.1 | 39.0 | [official repo](https://github.com/zaiweizhang/H3DNet) |
-|[imVoteNet](https://arxiv.org/abs/2001.10692)|PointNet++|point+RGB| 63.4 | - |  [official repo](https://github.com/facebookresearch/imvotenet)|
+|[VoteNet](https://arxiv.org/abs/1904.09664)| PointNet++ |point | 59.1 | 35.8 | - |
+|[MLCVNet](https://arxiv.org/abs/2004.05679)|PointNet++ | point | 59.8 | - | - |
+|[HGNet]| GU-net |point | 61.6 |-|-|
+|[H3DNet](https://arxiv.org/abs/2006.05682) | 4xPointNet++ |point | 60.1 | 39.0 | - |
+|[imVoteNet](https://arxiv.org/abs/2001.10692)|PointNet++|point+RGB| 63.4 | - | - |
 | Ours| PointNet++ | point |  |  | |
 
 ## Usage
