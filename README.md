@@ -1,6 +1,6 @@
 # groupfree3d_mindspore
 
-This repo is the mindspore implementation of "Group-Free 3D Object Detection via Transformers" (https://arxiv.org/abs/2104.00678)
+This repo is the MindSpore implementation of "Group-Free 3D Object Detection via Transformers" (https://arxiv.org/abs/2104.00678)
 
 ## Install
 ### Requirements
